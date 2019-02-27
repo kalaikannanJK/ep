@@ -1,13 +1,11 @@
-#include <stdio.h>
-void main() {
-int c;
-int sum=0,i;
-scanf("%d",&c);
-for(i=;i<=c;i++)
+#include<stdio.h>
+void main()
 {
-sum=sum+i;
-}
-printf("%d",sum);
-return 0;
-
+	int n,sum,sum1,i,x;
+	scanf("%d",&n);
+	sum=(n*(n+1))/2;
+	printf("%d\n",sum);
+	for(i=1;i<=n;i++)
+	sum1=sum1+i;
+	printf("%d",sum1);
 }

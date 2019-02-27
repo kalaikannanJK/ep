@@ -1,11 +1,13 @@
 #include<stdio.h>
 void main()
 {
-	int n,sum,sum1,i,x;
-	scanf("%d",&n);
-	sum=(n*(n+1))/2;
-	printf("%d\n",sum);
-	for(i=1;i<=n;i++)
-	sum1=sum1+i;
-	printf("%d",sum1);
+int i,n,sum=0;
+printf("enter the number");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+sum+=i;
+}
+printf("sum of first %d natural numbers=%d",n,sum);
+getch();
 }
